@@ -15,8 +15,9 @@
 //     return $router->app->version();
 // });
 
-// products
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
+
+    // products
     $router->get('/products', 'ProductsController@index');
     $router->get('/products/{id}', 'ProductsController@getById');
 });

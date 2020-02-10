@@ -1,6 +1,6 @@
 #!/bin/bash
 
-php -S localhost:7000 -t ./public
+php -S 0.0.0.0:7000 -t ./public
 
 exit 0
 
