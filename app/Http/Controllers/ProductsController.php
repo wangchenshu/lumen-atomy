@@ -13,14 +13,14 @@ class ProductsController extends Controller
         //
     }
 
-    public function index()
+    public function show()
     {
         $products = Products::all();
 
         return response()->json($products);
     }
 
-    public function getById($id)
+    public function showById($id)
     {
         $product = Products::find($id);
 
