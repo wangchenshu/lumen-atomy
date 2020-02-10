@@ -18,6 +18,6 @@
 $router->group(['prefix' => 'api/v1'], function () use ($router) {
 
     // products
-    $router->get('/products', 'ProductsController@show');
-    $router->get('/products/{id}', 'ProductsController@showById');
+    $router->get('/products', 'ProductsController@index');
+    $router->get('/products/{id}', 'ProductsController@show');
 });
