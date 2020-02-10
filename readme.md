@@ -1,3 +1,13 @@
+# How to start
+
+## Install composer
+>  composer install
+
+## Start app
+>  ./startup.sh
+
+## enjoy
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
